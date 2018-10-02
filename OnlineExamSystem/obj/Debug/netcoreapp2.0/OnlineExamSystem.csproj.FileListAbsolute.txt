@@ -1,0 +1,48 @@
+D:\Jasim\OnlineExamSystem\OnlineExamSystemSln\OnlineExamSystem\bin\Debug\netcoreapp2.0\OnlineExamSystem.deps.json
+D:\Jasim\OnlineExamSystem\OnlineExamSystemSln\OnlineExamSystem\bin\Debug\netcoreapp2.0\OnlineExamSystem.runtimeconfig.json
+D:\Jasim\OnlineExamSystem\OnlineExamSystemSln\OnlineExamSystem\bin\Debug\netcoreapp2.0\OnlineExamSystem.runtimeconfig.dev.json
+D:\Jasim\OnlineExamSystem\OnlineExamSystemSln\OnlineExamSystem\bin\Debug\netcoreapp2.0\OnlineExamSystem.dll
+D:\Jasim\OnlineExamSystem\OnlineExamSystemSln\OnlineExamSystem\obj\Debug\netcoreapp2.0\OnlineExamSystem.csprojResolveAssemblyReference.cache
+D:\Jasim\OnlineExamSystem\OnlineExamSystemSln\OnlineExamSystem\obj\Debug\netcoreapp2.0\OnlineExamSystem.csproj.CoreCompileInputs.cache
+D:\Jasim\OnlineExamSystem\OnlineExamSystemSln\OnlineExamSystem\obj\Debug\netcoreapp2.0\OnlineExamSystem.AssemblyInfoInputs.cache
+D:\Jasim\OnlineExamSystem\OnlineExamSystemSln\OnlineExamSystem\obj\Debug\netcoreapp2.0\OnlineExamSystem.AssemblyInfo.cs
+D:\Jasim\OnlineExamSystem\OnlineExamSystemSln\OnlineExamSystem\bin\Debug\netcoreapp2.0\OnlineExamSystem.pdb
+D:\Jasim\OnlineExamSystem\OnlineExamSystemSln\OnlineExamSystem\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+D:\Jasim\OnlineExamSystem\OnlineExamSystemSln\OnlineExamSystem\obj\Debug\netcoreapp2.0\OnlineExamSystem.dll
+D:\Jasim\OnlineExamSystem\OnlineExamSystemSln\OnlineExamSystem\obj\Debug\netcoreapp2.0\OnlineExamSystem.pdb
+C:\Users\student\Desktop\OnlineExamSystemSln\OnlineExamSystem\bin\Debug\netcoreapp2.0\OnlineExamSystem.deps.json
+C:\Users\student\Desktop\OnlineExamSystemSln\OnlineExamSystem\bin\Debug\netcoreapp2.0\OnlineExamSystem.runtimeconfig.json
+C:\Users\student\Desktop\OnlineExamSystemSln\OnlineExamSystem\bin\Debug\netcoreapp2.0\OnlineExamSystem.runtimeconfig.dev.json
+C:\Users\student\Desktop\OnlineExamSystemSln\OnlineExamSystem\bin\Debug\netcoreapp2.0\OnlineExamSystem.dll
+C:\Users\student\Desktop\OnlineExamSystemSln\OnlineExamSystem\bin\Debug\netcoreapp2.0\OnlineExamSystem.pdb
+C:\Users\student\Desktop\OnlineExamSystemSln\OnlineExamSystem\obj\Debug\netcoreapp2.0\OnlineExamSystem.csprojResolveAssemblyReference.cache
+C:\Users\student\Desktop\OnlineExamSystemSln\OnlineExamSystem\obj\Debug\netcoreapp2.0\OnlineExamSystem.csproj.CoreCompileInputs.cache
+C:\Users\student\Desktop\OnlineExamSystemSln\OnlineExamSystem\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\student\Desktop\OnlineExamSystemSln\OnlineExamSystem\obj\Debug\netcoreapp2.0\OnlineExamSystem.AssemblyInfoInputs.cache
+C:\Users\student\Desktop\OnlineExamSystemSln\OnlineExamSystem\obj\Debug\netcoreapp2.0\OnlineExamSystem.AssemblyInfo.cs
+C:\Users\student\Desktop\OnlineExamSystemSln\OnlineExamSystem\obj\Debug\netcoreapp2.0\OnlineExamSystem.dll
+C:\Users\student\Desktop\OnlineExamSystemSln\OnlineExamSystem\obj\Debug\netcoreapp2.0\OnlineExamSystem.pdb
+C:\Users\User\Desktop\CoreProject\OnlineExamSystemSln\OnlineExamSystem\bin\Debug\netcoreapp2.0\OnlineExamSystem.deps.json
+C:\Users\User\Desktop\CoreProject\OnlineExamSystemSln\OnlineExamSystem\bin\Debug\netcoreapp2.0\OnlineExamSystem.runtimeconfig.json
+C:\Users\User\Desktop\CoreProject\OnlineExamSystemSln\OnlineExamSystem\bin\Debug\netcoreapp2.0\OnlineExamSystem.runtimeconfig.dev.json
+C:\Users\User\Desktop\CoreProject\OnlineExamSystemSln\OnlineExamSystem\bin\Debug\netcoreapp2.0\OnlineExamSystem.dll
+C:\Users\User\Desktop\CoreProject\OnlineExamSystemSln\OnlineExamSystem\bin\Debug\netcoreapp2.0\OnlineExamSystem.pdb
+C:\Users\User\Desktop\CoreProject\OnlineExamSystemSln\OnlineExamSystem\obj\Debug\netcoreapp2.0\OnlineExamSystem.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\CoreProject\OnlineExamSystemSln\OnlineExamSystem\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\User\Desktop\CoreProject\OnlineExamSystemSln\OnlineExamSystem\obj\Debug\netcoreapp2.0\OnlineExamSystem.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\CoreProject\OnlineExamSystemSln\OnlineExamSystem\obj\Debug\netcoreapp2.0\OnlineExamSystem.AssemblyInfo.cs
+C:\Users\User\Desktop\CoreProject\OnlineExamSystemSln\OnlineExamSystem\obj\Debug\netcoreapp2.0\OnlineExamSystem.dll
+C:\Users\User\Desktop\CoreProject\OnlineExamSystemSln\OnlineExamSystem\obj\Debug\netcoreapp2.0\OnlineExamSystem.pdb
+C:\Users\User\Desktop\CoreProject\OnlineExamSystemSln\OnlineExamSystem\obj\Debug\netcoreapp2.0\OnlineExamSystem.csprojResolveAssemblyReference.cache
+H:\Programming\ASP.NET Development\ASP.NET Core 2.0\Project\OnlineExamSystemSln\OnlineExamSystem\bin\Debug\netcoreapp2.0\OnlineExamSystem.deps.json
+H:\Programming\ASP.NET Development\ASP.NET Core 2.0\Project\OnlineExamSystemSln\OnlineExamSystem\bin\Debug\netcoreapp2.0\OnlineExamSystem.runtimeconfig.json
+H:\Programming\ASP.NET Development\ASP.NET Core 2.0\Project\OnlineExamSystemSln\OnlineExamSystem\bin\Debug\netcoreapp2.0\OnlineExamSystem.runtimeconfig.dev.json
+H:\Programming\ASP.NET Development\ASP.NET Core 2.0\Project\OnlineExamSystemSln\OnlineExamSystem\bin\Debug\netcoreapp2.0\OnlineExamSystem.dll
+H:\Programming\ASP.NET Development\ASP.NET Core 2.0\Project\OnlineExamSystemSln\OnlineExamSystem\bin\Debug\netcoreapp2.0\OnlineExamSystem.pdb
+H:\Programming\ASP.NET Development\ASP.NET Core 2.0\Project\OnlineExamSystemSln\OnlineExamSystem\obj\Debug\netcoreapp2.0\OnlineExamSystem.csprojAssemblyReference.cache
+H:\Programming\ASP.NET Development\ASP.NET Core 2.0\Project\OnlineExamSystemSln\OnlineExamSystem\obj\Debug\netcoreapp2.0\OnlineExamSystem.csproj.CoreCompileInputs.cache
+H:\Programming\ASP.NET Development\ASP.NET Core 2.0\Project\OnlineExamSystemSln\OnlineExamSystem\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+H:\Programming\ASP.NET Development\ASP.NET Core 2.0\Project\OnlineExamSystemSln\OnlineExamSystem\obj\Debug\netcoreapp2.0\OnlineExamSystem.AssemblyInfoInputs.cache
+H:\Programming\ASP.NET Development\ASP.NET Core 2.0\Project\OnlineExamSystemSln\OnlineExamSystem\obj\Debug\netcoreapp2.0\OnlineExamSystem.AssemblyInfo.cs
+H:\Programming\ASP.NET Development\ASP.NET Core 2.0\Project\OnlineExamSystemSln\OnlineExamSystem\obj\Debug\netcoreapp2.0\OnlineExamSystem.dll
+H:\Programming\ASP.NET Development\ASP.NET Core 2.0\Project\OnlineExamSystemSln\OnlineExamSystem\obj\Debug\netcoreapp2.0\OnlineExamSystem.pdb

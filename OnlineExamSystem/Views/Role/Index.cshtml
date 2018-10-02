@@ -1,0 +1,40 @@
+﻿@model List<IdentityRole>
+@{
+    ViewData["Title"] = "Index";
+    var i = 1;
+}
+
+<h2 style="text-align: center">Availabe Roles for Application</h2><br/>
+<section class="col-sm-6">
+    <table class="table table-bordered">
+        @*@Html.ActionLink("Create Role", "Create", "Role")*@
+        <div>
+            <a asp-action="CreateRole" asp-controller="Account">Create Role</a>
+        </div>
+    </table>
+</section>
+<section class="col-sm-6">
+    <table class="table table-bordered">
+        @*@Html.ActionLink("Assign Role To User","CreateRole","Account")*@
+        <div>
+            <a asp-action="AssignRole" asp-controller="Account">Assign Role To User</a>
+        </div>
+    </table>
+</section>
+<br/>
+<table class="table table-bordered table-hover table-striped">
+    <tr>
+        <th>S.I</th>
+        <th>Role Name</th>
+        <th>Action</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+    <tr>
+        <td class="C">@i</td>
+        <td class="C">@item.Name</td>
+        <td><a asp-action="Delete" asp-route-id="@item.Id">Delete</a></td>
+    </tr>
+        i++;
+    }
+</table>

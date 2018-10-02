@@ -1,0 +1,122 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <UserSecretsId>aspnet-OnlineExamSystem-593CDD0E-D3FD-4083-911E-7D2CE6CC2DD4</UserSecretsId>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.0.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.0" PrivateAssets="All" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.0.0" />
+    <DotNetCliToolReference Include="Microsoft.Extensions.SecretManager.Tools" Version="2.0.0" />
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\theme\404.html" />
+    <None Include="wwwroot\theme\500.html" />
+    <None Include="wwwroot\theme\blank-page.html" />
+    <None Include="wwwroot\theme\buttons.html" />
+    <None Include="wwwroot\theme\charts.html" />
+    <None Include="wwwroot\theme\compose.html" />
+    <None Include="wwwroot\theme\css\animate.css" />
+    <None Include="wwwroot\theme\css\bootstrap.css" />
+    <None Include="wwwroot\theme\css\custom.css" />
+    <None Include="wwwroot\theme\css\export.css" />
+    <None Include="wwwroot\theme\css\font-awesome.css" />
+    <None Include="wwwroot\theme\css\graph.css" />
+    <None Include="wwwroot\theme\css\jqcandlestick.css" />
+    <None Include="wwwroot\theme\css\monthly.css" />
+    <None Include="wwwroot\theme\css\owl.carousel.css" />
+    <None Include="wwwroot\theme\css\SidebarNav.min.css" />
+    <None Include="wwwroot\theme\css\style.css" />
+    <None Include="wwwroot\theme\fonts\fontawesome-webfont.eot" />
+    <None Include="wwwroot\theme\fonts\fontawesome-webfont.svg" />
+    <None Include="wwwroot\theme\fonts\fontawesome-webfont.ttf" />
+    <None Include="wwwroot\theme\fonts\fontawesome-webfont.woff" />
+    <None Include="wwwroot\theme\fonts\fontawesome-webfont.woff2" />
+    <None Include="wwwroot\theme\fonts\FontAwesome.otf" />
+    <None Include="wwwroot\theme\fonts\glyphicons-halflings-regular.eot" />
+    <None Include="wwwroot\theme\fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="wwwroot\theme\fonts\glyphicons-halflings-regular.woff" />
+    <None Include="wwwroot\theme\fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="wwwroot\theme\forms.html" />
+    <None Include="wwwroot\theme\general.html" />
+    <None Include="wwwroot\theme\grids.html" />
+    <None Include="wwwroot\theme\icons.html" />
+    <None Include="wwwroot\theme\images\1.jpg" />
+    <None Include="wwwroot\theme\images\2.jpg" />
+    <None Include="wwwroot\theme\images\3.jpg" />
+    <None Include="wwwroot\theme\images\4.jpg" />
+    <None Include="wwwroot\theme\images\a.png" />
+    <None Include="wwwroot\theme\images\Cimg1.jpg" />
+    <None Include="wwwroot\theme\images\Cimg2.png" />
+    <None Include="wwwroot\theme\images\i1.png" />
+    <None Include="wwwroot\theme\images\i2.png" />
+    <None Include="wwwroot\theme\images\i3.png" />
+    <None Include="wwwroot\theme\images\i4.png" />
+    <None Include="wwwroot\theme\images\img-sprite.png" />
+    <None Include="wwwroot\theme\images\img1.png" />
+    <None Include="wwwroot\theme\images\Jashim.jpg" />
+    <None Include="wwwroot\theme\images\lock.png" />
+    <None Include="wwwroot\theme\images\mail.png" />
+    <None Include="wwwroot\theme\images\search-icon.png" />
+    <None Include="wwwroot\theme\images\slider1.jpg" />
+    <None Include="wwwroot\theme\images\slider2.jpg" />
+    <None Include="wwwroot\theme\images\slider3.jpg" />
+    <None Include="wwwroot\theme\images\slider4.jpg" />
+    <None Include="wwwroot\theme\images\slider5.jpg" />
+    <None Include="wwwroot\theme\images\slider6.jpg" />
+    <None Include="wwwroot\theme\images\slider7.jpg" />
+    <None Include="wwwroot\theme\images\tick.png" />
+    <None Include="wwwroot\theme\images\user.png" />
+    <None Include="wwwroot\theme\images\weather.jpg" />
+    <None Include="wwwroot\theme\inbox.html" />
+    <None Include="wwwroot\theme\index.html" />
+    <None Include="wwwroot\theme\js\amcharts.js" />
+    <None Include="wwwroot\theme\js\bootstrap.js" />
+    <None Include="wwwroot\theme\js\Chart.bundle.js" />
+    <None Include="wwwroot\theme\js\Chart.js" />
+    <None Include="wwwroot\theme\js\Chart.min.js" />
+    <None Include="wwwroot\theme\js\chartinator.js" />
+    <None Include="wwwroot\theme\js\classie.js" />
+    <None Include="wwwroot\theme\js\custom.js" />
+    <None Include="wwwroot\theme\js\export.min.js" />
+    <None Include="wwwroot\theme\js\images\dragIconRoundBig.svg" />
+    <None Include="wwwroot\theme\js\images\lens.svg" />
+    <None Include="wwwroot\theme\js\index.js" />
+    <None Include="wwwroot\theme\js\index1.js" />
+    <None Include="wwwroot\theme\js\index2.js" />
+    <None Include="wwwroot\theme\js\jquery-1.11.1.min.js" />
+    <None Include="wwwroot\theme\js\jquery.flot.js" />
+    <None Include="wwwroot\theme\js\jquery.jqcandlestick.min.js" />
+    <None Include="wwwroot\theme\js\jquery.nicescroll.js" />
+    <None Include="wwwroot\theme\js\light.js" />
+    <None Include="wwwroot\theme\js\metisMenu.min.js" />
+    <None Include="wwwroot\theme\js\modernizr.custom.js" />
+    <None Include="wwwroot\theme\js\monthly.js" />
+    <None Include="wwwroot\theme\js\owl.carousel.js" />
+    <None Include="wwwroot\theme\js\pie-chart.js" />
+    <None Include="wwwroot\theme\js\scripts.js" />
+    <None Include="wwwroot\theme\js\serial.js" />
+    <None Include="wwwroot\theme\js\SidebarNav.min.js" />
+    <None Include="wwwroot\theme\js\SimpleChart.js" />
+    <None Include="wwwroot\theme\js\utils.js" />
+    <None Include="wwwroot\theme\js\validator.min.js" />
+    <None Include="wwwroot\theme\login.html" />
+    <None Include="wwwroot\theme\media.html" />
+    <None Include="wwwroot\theme\signup.html" />
+    <None Include="wwwroot\theme\tables.html" />
+    <None Include="wwwroot\theme\typography.html" />
+    <None Include="wwwroot\theme\validation.html" />
+    <None Include="wwwroot\theme\w3layouts-License.txt" />
+    <None Include="wwwroot\theme\widgets.html" />
+  </ItemGroup>
+
+</Project>

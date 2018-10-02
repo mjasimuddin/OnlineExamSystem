@@ -1,0 +1,25 @@
+﻿@model IdentityRole
+@{
+    ViewData["Title"] = "Create";
+}
+<h2>Create</h2>
+<style type="text/css">
+    #tbrole, .C {
+        border: double;
+    }
+</style>
+<div class="row">
+    <div class="col-md-4 col-md-offset-4">
+        <form class="form-horizontal">
+            <table class="table table-bordered table-hover">
+                <tr>
+                    <td class="C">Enter Role Name To be Created:</td>
+                    <td class="C">
+                        @Html.EditorFor(m => m.Name)
+                    </td>
+                </tr>
+            </table>
+            <input type="submit" class="form-control btn btn-primary" value="Create Role"/><br/>
+        </form>
+    </div>
+</div>

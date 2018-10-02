@@ -1,0 +1,175 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - OnlineExamSystem</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="~/theme/css/bootstrap.css" rel='stylesheet' type='text/css' />
+
+    <!-- Custom CSS -->
+    <link href="~/theme/css/style.css" rel='stylesheet' type='text/css' />
+
+    <!-- font-awesome icons CSS -->
+    <link href="~/theme/css/font-awesome.css" rel="stylesheet">
+    <!-- //font-awesome icons CSS -->
+    <!-- side nav css file -->
+    <link href='~/theme/css/SidebarNav.min.css' media='all' rel='stylesheet' type='text/css' />
+    <!-- side nav css file -->
+    <!-- js-->
+    <script src="~/theme/js/jquery-1.11.1.min.js"></script>
+    <script src="~/theme/js/modernizr.custom.js"></script>
+    <!--webfonts-->
+    <link href="//fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
+    <!--//webfonts-->
+    <!-- Metis Menu -->
+    <script src="~/theme/js/metisMenu.min.js"></script>
+    <script src="~/theme/js/custom.js"></script>
+    <link href="~/theme/css/custom.css" rel="stylesheet" />
+
+    <!--//Metis Menu -->
+    
+    
+</head>
+<body class="cbp-spmenu-push">
+    <div class="main-content">
+        <div class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
+            <!--left-fixed -navigation-->
+            <aside class="sidebar-left">
+                <nav class="navbar navbar-inverse">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".collapse" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <h1><a class="navbar-brand"><span class="fa fa-area-chart"></span>Online Exam<span class="dashboard_text">Management System</span></a></h1>
+                    </div>
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="sidebar-menu">
+                            <li class="header">MAIN NAVIGATION</li>
+                            <li>@Html.ActionLink("Nerd Castle", "Index", "Home")</li>
+                            @*<li>@Html.ActionLink("Admin", "Login", "Account")</li>
+                            <li>@Html.ActionLink("Student", "Login", "Account")</li>*@
+                        </ul>
+                        
+                    </div>
+                    <!-- /.navbar-collapse -->
+                </nav>
+            </aside>
+        </div>
+        <!--left-fixed -navigation-->
+        <!-- header-starts -->
+        <div class="sticky-header header-section ">
+            <div class="header-left">
+
+                <!--toggle button start-->
+                <button id="showLeftPush"><i class="fa fa-bars"></i></button>
+                <!--toggle button end-->
+                <div class="profile_details_left">
+                    <!--notifications of menu start -->
+
+                    <div class="clearfix"> </div>
+                </div>
+                <!--notification menu end -->
+                <div class="clearfix"> </div>
+            </div>
+
+            <div class="header-right">
+                <!--search-box-->
+                <!--//end-search-box-->
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        
+                    </ul>
+                    @await Html.PartialAsync("_LoginPartial")
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+        <!-- //header-ends -->
+        
+        <!-- for amcharts js -->
+        <script src="~/theme/js/amcharts.js"></script>
+        <script src="~/theme/js/serial.js"></script>
+        <script src="~/theme/js/export.min.js"></script>
+        <link rel="stylesheet" href="~/theme/css/export.css" type="text/css" media="all" />
+        <script src="~/theme/js/light.js"></script>
+        <!-- for amcharts js -->
+
+        <script src="~/theme/js/index1.js"></script>
+
+        < <div class="container body-content">
+            @RenderBody()
+            <hr />
+            
+        </div>
+          <div class="footer">
+              <footer>
+                  <p>&copy; 2018 - OnlineExamSystem</p>
+              </footer>
+          </div>
+    </div>
+    
+    
+
+
+
+  
+    <!-- Classie --><!-- for toggle left push menu script -->
+    <script src="~/theme/js/classie.js"></script>
+    <script>
+        var menuLeft = document.getElementById('cbp-spmenu-s1'),
+            showLeftPush = document.getElementById('showLeftPush'),
+            body = document.body;
+
+        showLeftPush.onclick = function () {
+            classie.toggle(this, 'active');
+            classie.toggle(body, 'cbp-spmenu-push-toright');
+            classie.toggle(menuLeft, 'cbp-spmenu-open');
+            disableOther('showLeftPush');
+        };
+
+
+        function disableOther(button) {
+            if (button !== 'showLeftPush') {
+                classie.toggle(showLeftPush, 'disabled');
+            }
+        }
+    </script>
+    <!-- //Classie --><!-- //for toggle left push menu script -->
+    <!--scrolling js-->
+    <script src="~/theme/js/jquery.nicescroll.js"></script>
+    <script src="~/theme/js/scripts.js"></script>
+    <!--//scrolling js-->
+    <!-- side nav js -->
+    <script src='~/theme/js/SidebarNav.min.js' type='text/javascript'></script>
+    <script>
+        $('.sidebar-menu').SidebarNav()
+    </script>
+    <!-- //side nav js -->
+   
+    <!-- Bootstrap Core JavaScript -->
+    <script src="~/theme/js/bootstrap.js"></script>
+    <!-- //Bootstrap Core JavaScript -->
+
+    <script>
+        $(function () {
+            $("ul.nav li.dropdown").hover(function () {
+                $(".dropdown-menu", this).fadeIn();
+            }, function () {
+                $(".dropdown-menu", this).fadeOut("fast");
+            });
+        })
+    </script>
+    
+
+@RenderSection("Scripts", required: false)
+</body>
+</html>

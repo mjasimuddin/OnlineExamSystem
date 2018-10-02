@@ -1,0 +1,54 @@
+﻿@using System.Collections.Generic
+@using System.Linq
+@using Microsoft.AspNetCore.Http
+@using Microsoft.AspNetCore.Http.Authentication
+@model LoginViewModel
+@inject SignInManager<ApplicationUser> SignInManager
+
+@{
+    ViewData["Title"] = "Log In";
+}
+
+<div id="page-wrapper">
+    <div class="login-page ">
+        <h2 class="title1">@ViewData["Title"]</h2>
+
+        <div class="widget-shadow">
+            <div class="login-body">
+                <section>
+                    <form asp-route-returnurl="@ViewData["ReturnUrl"]" method="post">
+                        <label id="ShowEmail" style="font: initial; color: black"></label>
+                        <input type="email" class="user" id="Email" name="Email" placeholder="Enter Your Email" required="">
+                        <label id="ShowPassword" style="font: initial; color: black"></label>
+                        <input type="password" name="Password" id="Password" class="lock" placeholder="Password" required="">
+                        <div class="forgot-grid">
+                            @*<label class="checkbox"><input type="checkbox" name="checkbox" checked=""><i></i>Remember me</label>*@
+                            <label asp-for="RememberMe">
+                                <input asp-for="RememberMe" />
+                                @Html.DisplayNameFor(m => m.RememberMe)
+                            </label>
+                            <div class="forgot">
+                                <p>
+                                    <a asp-action="ForgotPassword">Forgot your password?</a>
+                                </p>
+                            </div>
+                            <div class="clearfix"> </div>
+                        </div>
+                        <input type="submit" name="Sign In" value="Sign In">
+                        <br />
+                        <h4 style="color: red; text-align: center">@ViewBag.Msg</h4>
+                        <div class="registration">
+                            <p>
+                                <a asp-action="Register" asp-route-returnurl="@ViewData["ReturnUrl"]">Register as a new user?</a>
+                            </p>
+                        </div>
+                    </form>
+                </section>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}
