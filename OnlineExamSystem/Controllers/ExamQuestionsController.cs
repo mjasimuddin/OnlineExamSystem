@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using OnlineExamSystem.Data;
 using OnlineExamSystem.Models;
+using OnlineExamSystem.ViewModels;
 
 namespace OnlineExamSystem.Controllers
 {
@@ -75,6 +76,12 @@ namespace OnlineExamSystem.Controllers
             //return View(await PaginatedList<Exam>.CreateAsync(exam.AsNoTracking(), (int)page, pageSize));
 
             return View();
+        }
+
+        public JsonResult SaveResult(List<ExamResult> result)
+        {
+
+            return Json("Save");
         }
     }
 }

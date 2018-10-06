@@ -3,16 +3,15 @@
     ViewData["Title"] = "Exam Name";
 }
 
-<h3>Exam Name</h3>
+<h3>Online Exam</h3>
 
-<table>
-    <tr>
-       
-        <td>@Html.ActionLink("C#","CSharp","ExamQuestions")<td>
-        
-        
-    </tr>
-    <tr>
-        <td>@Html.ActionLink("SQL", "SQLSERVER", "ExamQuestions")<td>
-    </tr>
-</table>
+<div id="page-wrapper">
+    <h3>Exam Name</h3>
+    <br />
+    <table>
+        <ul>
+            <li>@Html.ActionLink("Basic C#", "CSharp", "ExamQuestions")</li>
+            <li>@Html.ActionLink("Basic SQL", "SQLSERVER", "ExamQuestions")</li>
+        </ul>
+    </table>
+</div>

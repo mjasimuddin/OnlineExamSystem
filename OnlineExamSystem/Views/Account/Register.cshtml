@@ -38,10 +38,12 @@
                     <form asp-route-returnurl="@ViewData["ReturnUrl"]" method="post">
                         <label id="ShowEmail" style="font: initial; color: black"></label>
                         <input type="email" class="user" id="Email" name="Email" placeholder="Enter Your Email" required="">
+
                         <label id="ShowPassword" style="font: initial; color: black"></label>
                         <input type="password" name="Password" id="Password" class="lock" placeholder="Password" required="">
-                        <label id="ConfirmPassword" style="font: initial; color: black"></label>
-                        <input type="password" name="ConfPassword" id="ConfPassword" class="lock" placeholder="Confirm Password" required="">
+
+                        <label id="ConfPassword" style="font: initial; color: black"></label>
+                        <input type="password" name="ConfirmPassword" id="ConfirmPassword" class="lock" placeholder="Confirm Password" required="">
                         
                         <input type="submit" name="Register" value="Register">
                         <div class="registration">
